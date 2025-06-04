@@ -1,0 +1,641 @@
+﻿  第9次.cpp
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(121,9): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(126,12): error C3861: “stoi”: 找不到标识符
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(231,8): error C2011: “P”:“struct”类型重定义
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+      参见“P”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(255,31): error C2086: “std::unordered_map<std::string,std::set<P,std::less<P>,std::allocator<P>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::set<P,std::less<P>,std::allocator<P>>>>> role”: 重定义
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(136,31):
+      参见“role”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(256,31): error C2086: “std::unordered_map<std::string,std::set<P,std::less<P>,std::allocator<P>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,std::set<P,std::less<P>,std::allocator<P>>>>> person”: 重定义
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(136,37):
+      参见“person”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(258,5): error C2084: 函数“int main(void)”已有主体
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(138,5):
+      参见“main”的前一个定义
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(279,15): error C2079: “t”使用未定义的 struct“P”
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,19): error C2665: “std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert”: 没有重载函数可以转换所有参数类型
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,19): error C2665:         with
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,19): error C2665:         [
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,19): error C2665:             _Kty=P,
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,19): error C2665:             _Pr=std::less<P>,
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,19): error C2665:             _Alloc=std::allocator<P>
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,19): error C2665:         ]
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1294,10):
+      可能是“void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::initializer_list<P>)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,19):
+          “void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::initializer_list<P>)”: 无法将参数 1 从“<error type>”转换为“std::initializer_list<P>”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,26):
+              “std::initializer_list<P>::initializer_list”: 没有重载函数可以转换所有参数类型
+                  D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\initializer_list(51,1):
+                  可能是“std::initializer_list<P>::initializer_list(std::initializer_list<P> &&)”
+                      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,26):
+                      “std::initializer_list<P>::initializer_list(std::initializer_list<P> &&)”: 无法将参数 1 从“<error type>”转换为“std::initializer_list<P> &&”
+                          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,26):
+                          原因如下: 无法从“<error type>”转换为“std::initializer_list<P>”
+                          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,26):
+                          转换要求第二个用户定义的转换运算符或构造函数
+                  D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\initializer_list(51,1):
+                  或    “std::initializer_list<P>::initializer_list(const std::initializer_list<P> &)”
+                      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,26):
+                      “std::initializer_list<P>::initializer_list(const std::initializer_list<P> &)”: 无法将参数 1 从“<error type>”转换为“const std::initializer_list<P> &”
+                          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,26):
+                          原因如下: 无法从“<error type>”转换为“const std::initializer_list<P>”
+                          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,26):
+                          转换要求第二个用户定义的转换运算符或构造函数
+                  C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,26):
+                  尝试匹配参数列表“(<error type>)”时
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1282,10):
+      或    “void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(_Iter,_Iter)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,19):
+          “void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(_Iter,_Iter)”: 应输入 2 个参数，却提供了 1 个
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1251,14):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(P &&)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,19):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(P &&)”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xhash(1927,47):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1245,26):
+      或    “std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(P &&)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,26):
+          “初始化”: 无法从“<error type>”转换为“P &&”
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,26):
+              原因如下: 无法从“<error type>”转换为“P”
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,26):
+              未定义类型 "P" 的使用
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+              参见“P”的声明
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1240,14):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(const P &)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,19):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(const P &)”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xhash(1927,47):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1234,26):
+      或    “std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(const P &)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,26):
+          “初始化”: 无法从“<error type>”转换为“const P &”
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,26):
+              原因如下: 无法从“<error type>”转换为“const P”
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,26):
+              未定义类型 "P" 的使用
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+              参见“P”的声明
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(283,19):
+      尝试匹配参数列表“(<error type>)”时
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(287,24): error C2664: “unsigned __int64 std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::count(const P &) const”: 无法将参数 1 从“<error type>”转换为“const P &”
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(287,24): error C2664:         with
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(287,24): error C2664:         [
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(287,24): error C2664:             _Kty=P,
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(287,24): error C2664:             _Pr=std::less<P>,
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(287,24): error C2664:             _Alloc=std::allocator<P>
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(287,24): error C2664:         ]
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(287,30):
+      原因如下: 无法从“<error type>”转换为“const P”
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(287,30):
+      未定义类型 "P" 的使用
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+      参见“P”的声明
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1423,26):
+      参见“std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::count”的声明
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1434,26):
+      可能是“unsigned __int64 std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::count(const _Other &) const”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(287,24):
+          “unsigned __int64 std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::count(const _Other &) const”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1401,58):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(287,24):
+      尝试匹配参数列表“(<error type>)”时
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,23): error C2665: “std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert”: 没有重载函数可以转换所有参数类型
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,23): error C2665:         with
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,23): error C2665:         [
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,23): error C2665:             _Kty=P,
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,23): error C2665:             _Pr=std::less<P>,
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,23): error C2665:             _Alloc=std::allocator<P>
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,23): error C2665:         ]
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1294,10):
+      可能是“void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::initializer_list<P>)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,23):
+          “void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::initializer_list<P>)”: 无法将参数 1 从“<error type>”转换为“std::initializer_list<P>”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,30):
+              “std::initializer_list<P>::initializer_list”: 没有重载函数可以转换所有参数类型
+                  D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\initializer_list(51,1):
+                  可能是“std::initializer_list<P>::initializer_list(std::initializer_list<P> &&)”
+                      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,30):
+                      “std::initializer_list<P>::initializer_list(std::initializer_list<P> &&)”: 无法将参数 1 从“<error type>”转换为“std::initializer_list<P> &&”
+                          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,30):
+                          原因如下: 无法从“<error type>”转换为“std::initializer_list<P>”
+                          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,30):
+                          转换要求第二个用户定义的转换运算符或构造函数
+                  D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\initializer_list(51,1):
+                  或    “std::initializer_list<P>::initializer_list(const std::initializer_list<P> &)”
+                      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,30):
+                      “std::initializer_list<P>::initializer_list(const std::initializer_list<P> &)”: 无法将参数 1 从“<error type>”转换为“const std::initializer_list<P> &”
+                          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,30):
+                          原因如下: 无法从“<error type>”转换为“const std::initializer_list<P>”
+                          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,30):
+                          转换要求第二个用户定义的转换运算符或构造函数
+                  C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,30):
+                  尝试匹配参数列表“(<error type>)”时
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1282,10):
+      或    “void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(_Iter,_Iter)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,23):
+          “void std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(_Iter,_Iter)”: 应输入 2 个参数，却提供了 1 个
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1251,14):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(P &&)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,23):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(P &&)”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xhash(1927,47):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1245,26):
+      或    “std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(P &&)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,30):
+          “初始化”: 无法从“<error type>”转换为“P &&”
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,30):
+              原因如下: 无法从“<error type>”转换为“P”
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,30):
+              未定义类型 "P" 的使用
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+              参见“P”的声明
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1240,14):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(const P &)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,23):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(const P &)”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xhash(1927,47):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1234,26):
+      或    “std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(const P &)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,30):
+          “初始化”: 无法从“<error type>”转换为“const P &”
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,30):
+              原因如下: 无法从“<error type>”转换为“const P”
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,30):
+              未定义类型 "P" 的使用
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+              参见“P”的声明
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(288,23):
+      尝试匹配参数列表“(<error type>)”时
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,33): error C2665: “std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find”: 没有重载函数可以转换所有参数类型
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,33): error C2665:         with
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,33): error C2665:         [
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,33): error C2665:             _Kty=P,
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,33): error C2665:             _Pr=std::less<P>,
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,33): error C2665:             _Alloc=std::allocator<P>
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,33): error C2665:         ]
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1397,31):
+      可能是“std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const P &) const”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,33):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const P &) const”: 无法将参数 1 从“<error type>”转换为“const P &”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,38):
+              原因如下: 无法从“<error type>”转换为“const P”
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,38):
+              未定义类型 "P" 的使用
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+              参见“P”的声明
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1393,25):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const P &)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,33):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const P &)”: 无法将参数 1 从“<error type>”转换为“const P &”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,38):
+              原因如下: 无法从“<error type>”转换为“const P”
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,38):
+              未定义类型 "P" 的使用
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+              参见“P”的声明
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1407,31):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const _Other &) const”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,33):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const _Other &) const”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1401,58):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1402,25):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const _Other &)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,33):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const _Other &)”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1401,58):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(292,33):
+      尝试匹配参数列表“(<error type>)”时
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(293,21): error C2027: 使用了未定义类型“P”
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+      参见“P”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(293,25): error C2039: "level": 不是 "std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>" 的成员
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(165,7):
+      参见“std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(293,37): error C2027: 使用了未定义类型“P”
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+      参见“P”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(293,41): error C2039: "level": 不是 "std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>" 的成员
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(165,7):
+      参见“std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(293,33): error C2672: “std::max”: 未找到匹配的重载函数
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\utility(85,26):
+      可能是“_Ty std::max(std::initializer_list<_Elem>)”
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\utility(82,26):
+      或    “_Ty std::max(std::initializer_list<_Elem>,_Pr)”
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(293,33):
+          “_Ty std::max(std::initializer_list<_Elem>,_Pr)”: 应输入 2 个参数，却提供了 1 个
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\utility(74,6):
+      或    “const _Ty &std::max(const _Ty &,const _Ty &) noexcept(<expr>)”
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(293,33):
+          “const _Ty &std::max(const _Ty &,const _Ty &) noexcept(<expr>)”: 应输入 2 个参数，却提供了 1 个
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\utility(64,33):
+      或    “const _Ty &std::max(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)”
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(293,33):
+          “const _Ty &std::max(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)”: 应输入 3 个参数，却提供了 1 个
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(314,21): error C2027: 使用了未定义类型“P”
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+      参见“P”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(325,25): error C2027: 使用了未定义类型“P”
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+      参见“P”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(325,29): error C2039: "level": 不是 "std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>" 的成员
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(165,7):
+      参见“std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(325,41): error C2027: 使用了未定义类型“P”
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+      参见“P”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(325,45): error C2039: "level": 不是 "std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>" 的成员
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(165,7):
+      参见“std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(325,52): error C2027: 使用了未定义类型“P”
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+      参见“P”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(325,37): error C2672: “std::max”: 未找到匹配的重载函数
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\utility(85,26):
+      可能是“_Ty std::max(std::initializer_list<_Elem>)”
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\utility(82,26):
+      或    “_Ty std::max(std::initializer_list<_Elem>,_Pr)”
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(325,37):
+          “_Ty std::max(std::initializer_list<_Elem>,_Pr)”: 应输入 2 个参数，却提供了 1 个
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\utility(74,6):
+      或    “const _Ty &std::max(const _Ty &,const _Ty &) noexcept(<expr>)”
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(325,37):
+          “const _Ty &std::max(const _Ty &,const _Ty &) noexcept(<expr>)”: 应输入 2 个参数，却提供了 1 个
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\utility(64,33):
+      或    “const _Ty &std::max(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)”
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(325,37):
+          “const _Ty &std::max(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)”: 应输入 3 个参数，却提供了 1 个
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(337,11): error C2079: “t”使用未定义的 struct“P”
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(341,16): error C2664: “unsigned __int64 std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::count(const P &) const”: 无法将参数 1 从“<error type>”转换为“const P &”
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(341,16): error C2664:         with
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(341,16): error C2664:         [
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(341,16): error C2664:             _Kty=P,
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(341,16): error C2664:             _Pr=std::less<P>,
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(341,16): error C2664:             _Alloc=std::allocator<P>
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(341,16): error C2664:         ]
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(341,22):
+      原因如下: 无法从“<error type>”转换为“const P”
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(341,22):
+      未定义类型 "P" 的使用
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+      参见“P”的声明
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1423,26):
+      参见“std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::count”的声明
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1434,26):
+      可能是“unsigned __int64 std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::count(const _Other &) const”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(341,16):
+          “unsigned __int64 std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::count(const _Other &) const”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1401,58):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(341,16):
+      尝试匹配参数列表“(<error type>)”时
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,25): error C2665: “std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find”: 没有重载函数可以转换所有参数类型
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,25): error C2665:         with
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,25): error C2665:         [
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,25): error C2665:             _Kty=P,
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,25): error C2665:             _Pr=std::less<P>,
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,25): error C2665:             _Alloc=std::allocator<P>
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,25): error C2665:         ]
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1397,31):
+      可能是“std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const P &) const”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,25):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const P &) const”: 无法将参数 1 从“<error type>”转换为“const P &”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,30):
+              原因如下: 无法从“<error type>”转换为“const P”
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,30):
+              未定义类型 "P" 的使用
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+              参见“P”的声明
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1393,25):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const P &)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,25):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const P &)”: 无法将参数 1 从“<error type>”转换为“const P &”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,30):
+              原因如下: 无法从“<error type>”转换为“const P”
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,30):
+              未定义类型 "P" 的使用
+              C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+              参见“P”的声明
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1407,31):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const _Other &) const”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,25):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const _Other &) const”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1401,58):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1402,25):
+      或    “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const _Other &)”
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+          C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,25):
+          “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(const _Other &)”: 无法推导“__formal”的 模板 参数
+          with
+          [
+              _Kty=P,
+              _Pr=std::less<P>,
+              _Alloc=std::allocator<P>
+          ]
+              D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(1401,58):
+              “std::enable_if_t<false,int>”: 未能使别名模板专用化
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(346,25):
+      尝试匹配参数列表“(<error type>)”时
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(350,21): error C2027: 使用了未定义类型“P”
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+      参见“P”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(350,25): error C2039: "level": 不是 "std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>" 的成员
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(165,7):
+      参见“std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(360,21): error C2027: 使用了未定义类型“P”
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+      参见“P”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(360,25): error C2039: "level": 不是 "std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>" 的成员
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(165,7):
+      参见“std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(365,29): error C2027: 使用了未定义类型“P”
+      C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(114,8):
+      参见“P”的声明
+  
+C:\Users\31213\Desktop\CCF-CSP\第9次CCF-CSP\第9次CCF-CSP\第9次.cpp(365,33): error C2039: "level": 不是 "std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>" 的成员
+      D:\Visual Studio\Visual Studio 2022\VC\Tools\MSVC\14.44.35207\include\xtree(165,7):
+      参见“std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<P>>>”的声明
+  
